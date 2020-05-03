@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+  margin: 50px;
+    
+}
+
+section{
+  border: 3px solid black;
+  background-color: grey;
+  width: 90%;
+  height: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: BLACK; 
+    position: relative;
+    text-align: center;
+}
+
+/* Simple Responsive Framework. */
+
+ 
+
+#heading1{
+    width:15%;
+    height: 15%;
+    position: absolute;
+    top:0;
+    right:0;
+    background-color: palevioletred;
+    color: BLACK;
+    
+    
+border: 2px solid black;
+}
+#heading2{
+    width:15%;
+    height: 15%;
+    position: absolute;
+    top:0;
+    right:0;
+    background-color: RED;
+    color: white;
+    
+    
+border: 2px solid black;
+}
+#heading3{
+    width:15%;
+    height: 15%;
+    position: absolute;
+    top:0;
+    right:0;
+    background-color: yellow;
+    color: BLACK;
+    
+    
+border: 2px solid black;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  #sec1 {
+    width: 30%;
+      float: left;
+  }
+  #sec2 {
+    width: 30%;
+    
+      float: left;
+  }
+    #sec3{
+        width: 30%;
+            float: left;
+    }
+}
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #sec1 {
+    width: 50%;
+      float: left;
+  }
+  #sec2 {
+    width: 50%;
+    float: left;
+  }
+    #sec3{
+        width: 100%;
+        clear: both;
+    }
+}
+@media (max-width: 767px) {
+  #sec1 {
+    width: 100%;
+  }
+  #sec2 {
+    width: 100%;
+    
+  }
+    #sec3{
+        width: 100%
+    }
+}
+
+
